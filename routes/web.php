@@ -19,3 +19,4 @@ use App\Http\Controllers\WelcomeController;
 // });
 Route::get('/', [\App\Http\Controllers\WelcomeController::class, 'index']);
 Route::get('/welcome/second', [WelcomeController::class, 'second']);
+Route::get('/welcome/third', [WelcomeController::class, 'third']);
